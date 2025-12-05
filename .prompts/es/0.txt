@@ -1,0 +1,13 @@
+Usa la información del video a continuación para crear notas estructuradas en Markdown en español siguiendo el formato requerido por el prompt del sistema.
+
+TÍTULO:
+{YBzHoYH9uj0a1LLKOUh1}
+
+DESCRIPCIÓN:
+{200Dpehn&1102-_ad}
+
+TRANSCRIPT:
+{t4sripc_&01-tses}
+
+Produce: Resumen, Puntos Clave, Momentos Destacados, Ideas para Creadores y Ideas de Videos Relacionados.  
+Usa Markdown limpio y separa cada elemento de lista en su propia línea.

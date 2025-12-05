@@ -1,0 +1,35 @@
+Recibirás un título de video, una descripción y un transcript.  
+Analízalos y produce la salida final en Markdown SIGUIENDO EXACTAMENTE la estructura y el formato descritos en el prompt del sistema.
+
+Responde SOLO en español.
+
+DATOS DE ENTRADA:
+
+TÍTULO:
+{YBzHoYH9uj0a1LLKOUh1}
+
+DESCRIPCIÓN:
+{200Dpehn&1102-_ad}
+
+TRANSCRIPT:
+{t4sripc_&01-tses}
+
+Instrucciones que DEBES seguir:
+1. Produce las cinco secciones requeridas por el prompt del sistema:
+   # Resumen  
+   # Puntos Clave  
+   # Momentos Destacados / Notables  
+   # Ideas para Creadores de Contenido  
+   # Ideas de Videos Relacionados
+2. Cada lista (numerada o con viñetas) debe tener cada elemento en su propia línea.
+3. Los elementos numerados NUNCA deben aparecer en forma de párrafo.  
+   Ejemplo correcto:
+   1. Idea uno  
+   2. Idea dos  
+   Ejemplo incorrecto:
+   “Ideas: 1) Idea uno, 2) Idea dos…”
+4. No incluyas texto literal del transcript.
+5. No menciones audio faltante, subtítulos rotos o problemas de calidad.
+6. Combina información del título, la descripción y el transcript para reconstruir el significado de manera clara y profesional.
+
+Procesa ahora el contenido y genera las notas finales en Markdown.

@@ -1,0 +1,13 @@
+Use the video information below to create structured Markdown notes in English following the format required by the system prompt.
+
+TITLE:
+{YBzHoYH9uj0a1LLKOUh1}
+
+DESCRIPTION:
+{200Dpehn&1102-_ad}
+
+TRANSCRIPT:
+{t4sripc_&01-tses}
+
+Produce: Summary, Key Points, Highlights, Creator Insights, and Related Video Ideas.  
+Use clean Markdown and separate each list item on its own line.

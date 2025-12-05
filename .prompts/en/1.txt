@@ -1,0 +1,35 @@
+You will receive a video title, description, and transcript.  
+Analyze them and produce the final Markdown output EXACTLY following the structure and formatting described in the system prompt.
+
+Respond ONLY in English.
+
+INPUT DATA:
+
+TITLE:
+{YBzHoYH9uj0a1LLKOUh1}
+
+DESCRIPTION:
+{200Dpehn&1102-_ad}
+
+TRANSCRIPT:
+{t4sripc_&01-tses}
+
+Instructions you MUST follow:
+1. Produce the five sections required by the system prompt:
+   # Summary  
+   # Key Points  
+   # Highlights / Notable Moments  
+   # Insights for Content Creators  
+   # Related Video Ideas
+2. Every list (numbered or bullets) must have each item on its own line.
+3. Numbered items MUST NEVER appear in paragraph form.  
+   Example of correct:
+   1. Idea one  
+   2. Idea two  
+   Example of incorrect:
+   “Ideas: 1) Idea one, 2) Idea two…”
+4. Do not include raw transcript text.
+5. Do not mention missing audio, broken captions, or quality issues.
+6. Combine information from the title, description, and transcript to reconstruct meaning clearly and professionally.
+
+Process the content now and generate the final Markdown notes.
